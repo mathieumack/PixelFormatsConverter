@@ -1,0 +1,35 @@
+﻿{
+  "version": "0.1.0-*",
+  "description": "PixelFormatsConverter contains two extensions in order to convert PixelFormat values from System.Drawing.Imaging.PixelFormat to System.Windows.Media.PixelFormat.",
+  "authors": [ "MACK Mathieu" ],
+  "tags": [ "PixelFormat" ],
+  "projectUrl": "https://github.com/mathieumack/PixelFormatsConverter",
+  "licenseUrl": "https://github.com/mathieumack/PixelFormatsConverter/blob/master/LICENSE",
+
+  "frameworks": {
+    "net461": {
+      "frameworkAssemblies": {
+        "System.Drawing": "",
+        "PresentationCore": ""
+      }
+    },
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Drawing": "",
+        "PresentationCore": ""
+      }
+    },
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Drawing": "",
+        "PresentationCore": ""
+      }
+    },
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Drawing": "",
+        "PresentationCore": ""
+      }
+    }
+  }
+}

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PixelFormatsConverter", "PixelFormatsConverter\PixelFormatsConverter.xproj", "{A8DDCE8A-3D25-40ED-BBFE-93592DAA0120}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PixelFormatsConverter", "PixelFormatsConverter\PixelFormatsConverter.csproj", "{A8DDCE8A-3D25-40ED-BBFE-93592DAA0120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

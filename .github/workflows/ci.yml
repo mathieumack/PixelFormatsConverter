@@ -15,14 +15,9 @@ on:
 
 jobs:
   dotnet:
-    uses: mathieumack/MyGithubActions/.github/workflows/dotnetlib.yml@main
+    uses: mathieumack/MyGithubActions/.github/workflows/dotnetframeworklib.yml@feature/add-old-dotnetframeworks
     with:
       publishToNuget: false
-      runOnImageName: 'windows'
-      dotnetVersions: |
-        4.5.x
-        4.7.x
-        4.8.x
     secrets:
       NUGETPACKAGEIDENTIFIER: ${{ secrets.NUGETPACKAGEIDENTIFIER }}
       SONAR_ORGANIZATION_CODE: ${{ secrets.SONAR_ORGANIZATION_CODE }}

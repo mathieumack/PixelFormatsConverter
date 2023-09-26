@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;net47;net472;net48</TargetFrameworks>
+    <Authors>MACK Mathieu</Authors>
+    <Company>MACK Mathieu</Company>
+    <Description>PixelFormatsConverter contains two extensions in order to convert PixelFormat values from System.Drawing.Imaging.PixelFormat to System.Windows.Media.PixelFormat.</Description>
+    <PackageTags>pixelformat</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <ProjectGuid>{a8ddce8a-3d25-40ed-bbfe-93592daa0120}</ProjectGuid>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <LangVersion>preview</LangVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright>Copyright (c) MACK Mathieu</Copyright>
+    <PackageProjectUrl>https://github.com/mathieumack/PixelFormatsConverter</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mathieumack/PixelFormatsConverter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="System.Drawing" />
+	  <Reference Include="PresentationCore" />
+	</ItemGroup>
+</Project>

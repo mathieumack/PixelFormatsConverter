@@ -35,7 +35,7 @@ namespace PixelFormatsConverter
                 return System.Windows.Media.PixelFormats.Bgr24;
 
             if (pixelFormat == System.Drawing.Imaging.PixelFormat.Format32bppArgb)
-                return System.Windows.Media.PixelFormats.Bgr32;
+                return System.Windows.Media.PixelFormats.Bgra32;
             if (pixelFormat == System.Drawing.Imaging.PixelFormat.Format32bppPArgb)
                 return System.Windows.Media.PixelFormats.Pbgra32;
             if (pixelFormat == System.Drawing.Imaging.PixelFormat.Format32bppRgb)
@@ -100,11 +100,11 @@ namespace PixelFormatsConverter
                 return System.Drawing.Imaging.PixelFormat.Format24bppRgb;
 
             if (pixelFormat == System.Windows.Media.PixelFormats.Bgr32)
+                return System.Drawing.Imaging.PixelFormat.Format32bppRgb;
+            if (pixelFormat == System.Windows.Media.PixelFormats.Bgra32)
                 return System.Drawing.Imaging.PixelFormat.Format32bppArgb;
             if (pixelFormat == System.Windows.Media.PixelFormats.Pbgra32)
                 return System.Drawing.Imaging.PixelFormat.Format32bppPArgb;
-            if (pixelFormat == System.Windows.Media.PixelFormats.Bgr32)
-                return System.Drawing.Imaging.PixelFormat.Format32bppRgb;
 
             if (pixelFormat == System.Windows.Media.PixelFormats.Rgb48)
                 return System.Drawing.Imaging.PixelFormat.Format48bppRgb;

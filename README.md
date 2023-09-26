@@ -3,8 +3,6 @@
 Convert from System.Drawing.Imaging.PixelFormat to System.Windows.Media.PixelFormat (or System.Windows.Media.PixelFormat or System.Drawing.Imaging.PixelFormat)
 
 # IC
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=mathieumack_PixelFormatsConverter&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=mathieumack_PixelFormatsConverter)
-[![.NET](https://github.com/mathieumack/PixelFormatsConverter/actions/workflows/ci.yml/badge.svg)](https://github.com/mathieumack/PixelFormatsConverter/actions/workflows/ci.yml)
 [![NuGet package](https://buildstats.info/nuget/PixelFormatsConverter?includePreReleases=true)](https://nuget.org/packages/PixelFormatsConverter)
 
 ### How to use it ?
